@@ -4,7 +4,7 @@ bool check(){
 
 }
 int binarySearch(){
-    int s=0;
+    int s=1;
     int e=INT_MAX;
     while(s<e){
         int mid=s+(e-s)/2;
@@ -12,7 +12,7 @@ int binarySearch(){
             e=mid;
         }
         else{
-            s=mid+1
+            s=mid+1;
         }
     }
     return e;
